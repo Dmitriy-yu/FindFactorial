@@ -41,7 +41,6 @@ namespace FindFactorial
             }
             
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             long result = 1;
@@ -53,10 +52,11 @@ namespace FindFactorial
             }
             textBox2.Text = result. ToString();
             textBox2.ForeColor=System.Drawing. Color.Red;
-            
         }
-
-    
     }
 }
+
+
+    
+            
 
